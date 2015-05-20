@@ -13,7 +13,7 @@ Then, turn it into a Websocket-based app that the players can play from differen
 - Reversi
 - High Card
 - Dueling cursors
-- Hangman (Think: Pixart)
+- Hangman (Think: Pixel Art)
 - Pictionary
 
 ## Playing from different computers
