@@ -4,6 +4,12 @@ Pick some fun, simple game for two (or more?) players.
 
 Then, turn it into a Websocket-based app that the players can play from different computers!
 
+## Hard Requirements
+
+- The app has to incorporate Node/Express, MongoDB, and Backbone
+- The data must persist: a user can leave the page in which the game is being played, return, and resume playing where they left off
+- There should be *one* master version of the app, stored in a single Github repository. (Remember all teammates can fork the repository to add it to their Github portfolios.)
+
 ## Suggestions
 
 - Tic Tac Toe
@@ -16,6 +22,29 @@ Then, turn it into a Websocket-based app that the players can play from differen
 - Hangman (Think: Pixel Art)
 - Pictionary
 
+## How do you start?
+
+#### Elect a leader... Maybe!
+Some groups work well when they designate a person whose job isn't to be The Decider, nor The Do-er of Stuff, but rather to be the Official Checker of Whether Everyone's Contributing Equally -- a role which requires no coding experience whatsoever. Some groups don't work well this way. The important thing is to not be afraid to talk about it.
+
+#### Agree on Github
+Whose repository will be the master? Who will be working on which files, to prevent merge conflicts? Will you be branching, forking, or both?
+
+#### Scope the game
+Begin by assuming the players will play by the rules, and that they'll know when the game is over. Don't worry about, say, preventing players from going out of turn or putting their pieces in the wrong places until later on, when you have something that works. 
+
+#### Set a timeline
+We'd suggest aiming to have a working user interface by the end of Thursday, and to add in rules and errors and persistence on Friday.
+
+#### Divide and conquer 
+The main interactions to consider in this app are:
+- The interactions between the browser and Node
+- The interactions between Node and Mongo
+- The interactions between the user and the browser (Backbone)
+- The user experience (HTML and CSS)
+
+You may want to try assigning a point-person to cover each relationship.
+
 ## Playing from different computers
 
 If you option-click on the wifi symbol in your menu bar, you should be able to see your current IP address. It'll be something like 172.20.3.229
@@ -25,10 +54,6 @@ Someone else can access the server running on your computer by typing into their
 So, for example:
 
 `http://172.20.3.229:3000`
-
-## How do you start?
-
-Begin by assuming the players will play by the rules, and that they'll know when the game is over. Don't worry about, say, preventing players from going out of turn or putting their pieces in the wrong places until later on, when you have something that works. 
 
 ## Bonus
 
