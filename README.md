@@ -45,6 +45,12 @@ The main interactions to consider in this app are:
 
 You may want to try assigning a point-person to cover each relationship.
 
+#### Start by refactoring!
+
+If you look at the "Solution" branch of this repo, there's a Tic Tac Toe game already completed in there! It's about as basic as you can get, and doesn't enforce any rules. You might start with that and build on it.
+
+https://github.com/ga-dc/websocket-arcade/tree/solution
+
 ## Playing from different computers
 
 If you option-click on the wifi symbol in your menu bar, you should be able to see your current IP address. It'll be something like 172.20.3.229
