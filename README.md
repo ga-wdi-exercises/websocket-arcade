@@ -31,12 +31,12 @@ Some groups work well when they designate a person whose job isn't to be The Dec
 Whose repository will be the master? Who will be working on which files, to prevent merge conflicts? Will you be branching, forking, or both?
 
 #### Scope the game
-Begin by assuming the players will play by the rules, and that they'll know when the game is over. Don't worry about, say, preventing players from going out of turn or putting their pieces in the wrong places until later on, when you have something that works. 
+Begin by assuming the players will play by the rules, and that they'll know when the game is over. Don't worry about, say, preventing players from going out of turn or putting their pieces in the wrong places until later on, when you have something that works.
 
 #### Set a timeline
 We'd suggest aiming to have a working user interface by the end of Thursday, and to add in rules and errors and persistence on Friday.
 
-#### Divide and conquer 
+#### Divide and conquer
 The main interactions to consider in this app are:
 - The interactions between the browser and Node
 - The interactions between Node and Mongo
@@ -111,3 +111,20 @@ You COULD make Tic Tac Toe just using Mongo and Express. That would be fine... a
 In fact, it may even be helpful to follow one of these tracks to begin with, and then when you start finding yourself saying, "Man, I wish I could save this data," start building in Mongo/Express.
 
 As for Backbone, its a little hard to see its value when your app is so small. You COULD just start writing Vanilla Javascript the old-fashioned way. That would be fine... until you have 300 lines of code and it's a pain in the finger to scroll through it all the time.
+
+## Group BreakDown
+
+| Group 1 | Group 2  | Group 3 | Group 4 | Group 5 |
+|---------|----------|---------|---------|---------|
+| eltahir | zakk     | nic     | ryan    | lindsey |
+| tammy   | allyson  | kevin   | tyler   | damon   |
+| aaron   | biboy    | enoch   | dj      | brad    |
+| isa     | brittany | don     | ali     | gwen    |
+
+| Group 6 | Group 7 | Group 8 | Group 9 | Group 10 |
+|---------|---------|---------|---------|----------|
+| p-man   | phil    | matt    | noah    | nabil    |
+| preston | haleigh | sarah   | jocelyn | karen    |
+| michael | janice  | adrian  | ammie   | keith    |
+| john    | nick b  | chad    | jared   | toby     |
+|         |         | rodger  | alif    | julia    |
