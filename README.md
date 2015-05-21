@@ -31,12 +31,12 @@ Some groups work well when they designate a person whose job isn't to be The Dec
 Whose repository will be the master? Who will be working on which files, to prevent merge conflicts? Will you be branching, forking, or both?
 
 #### Scope the game
-Begin by assuming the players will play by the rules, and that they'll know when the game is over. Don't worry about, say, preventing players from going out of turn or putting their pieces in the wrong places until later on, when you have something that works. 
+Begin by assuming the players will play by the rules, and that they'll know when the game is over. Don't worry about, say, preventing players from going out of turn or putting their pieces in the wrong places until later on, when you have something that works.
 
 #### Set a timeline
 We'd suggest aiming to have a working user interface by the end of Thursday, and to add in rules and errors and persistence on Friday.
 
-#### Divide and conquer 
+#### Divide and conquer
 The main interactions to consider in this app are:
 - The interactions between the browser and Node
 - The interactions between Node and Mongo
@@ -64,3 +64,20 @@ So, for example:
 ## Bonus
 
 Make a game that MORE than two people can play! Create a "waiting room" in which visitors can see who's available to play a game.
+
+## Group BreakDown
+
+| Group 1 | Group 2  | Group 3 | Group 4 | Group 5 |
+|---------|----------|---------|---------|---------|
+| eltahir | zakk     | nic     | ryan    | lindsey |
+| tammy   | allyson  | kevin   | tyler   | damon   |
+| aaron   | biboy    | enoch   | dj      | brad    |
+| isa     | brittany | don     | ali     | gwen    |
+
+| Group 6 | Group 7 | Group 8 | Group 9 | Group 10 |
+|---------|---------|---------|---------|----------|
+| p-man   | phil    | matt    | noah    | nabil    |
+| preston | haleigh | sarah   | jocelyn | karen    |
+| michael | janice  | adrian  | ammie   | keith    |
+| john    | jared   | chad    | nick b  | toby     |
+|         |         | rodger  | alif    | julia    |
