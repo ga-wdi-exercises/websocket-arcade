@@ -79,5 +79,5 @@ Make a game that MORE than two people can play! Create a "waiting room" in which
 | p-man   | phil    | matt    | noah    | nabil    |
 | preston | haleigh | sarah   | jocelyn | karen    |
 | michael | janice  | adrian  | ammie   | keith    |
-| john    | jared   | chad    | nick b  | toby     |
+| john    | nick b  | chad    | jared   | toby     |
 |         |         | rodger  | alif    | julia    |
