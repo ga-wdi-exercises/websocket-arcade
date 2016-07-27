@@ -4,6 +4,8 @@ Pick some fun, simple game for two (or more?) players.
 
 Then, turn it into a WebSocket-based app that the players can play from different computers!
 
+You are recommended to work in groups of no more than 3, but this is not a requirement.
+
 ## Soft Requirements
 
 - The app should try to incorporate Node/Express, MongoDB, and Angular
@@ -69,13 +71,7 @@ Make something that works! Then you can refactor it and make it "better".
 
 ## Playing from different computers
 
-If you option-click on the wifi symbol in your menu bar, you should be able to see your current IP address. It'll be something like 172.20.3.229
-
-Someone else can access the server running on your computer by typing into their address bar that IP address followed by the port number, which is probably 3000.
-
-So, for example:
-
-`http://172.20.3.229:3000`
+Due to limitations on our network here at GA, we can't actually simulate playing from two different computers, so for now just test your application by using two different browser windows.
 
 ## Bonus
 
