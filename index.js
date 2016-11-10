@@ -4,20 +4,25 @@ var bodyParser = require('body-parser')
 var hbs =require("hbs")
 
 var app = express()
+var http = require("http").Server(app)
+var io = require("socket.io")(http)
 
 // set listen and view engine
 app.set("port", process.env.PORT || 4001)
-app.set("view engine", "hbs")
+// app.set("view engine", "hbs")
 
 //print board pieces in index board
 app.get("/", (req, res) => {
-  let hello = "hey guys!"
-  res.render("index", {
-    hello: hello
+  res.sendFile(__dirname + '/index.html')
+})
+
+io.on("connection", function(socket) {
+  socket.on("add piece", function(piece) {
+    io.emit("add piece", piece)
   })
 })
 
 //listening for 4001
-app.listen(app.get("port"), function(){
-  console.log("listening")
+http.listen(app.get("port"), function(){
+  console.log("listening on " + app.get("port"))
 })
