@@ -1,0 +1,13 @@
+div{
+  height: 100px;
+  width: 100px
+}
+
+.redPiece{
+  background-color: red;
+
+}
+
+.blackPiece{
+  background-color: black;
+}
